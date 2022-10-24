@@ -1,0 +1,3 @@
+[submodule "libs/ProtonEngine"]
+	path = libs/ProtonEngine
+	url = https://github.com/Proton-Engine/ProtonEngine
