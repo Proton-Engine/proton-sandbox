@@ -7,7 +7,7 @@
 
 #include <iostream>
 
-Application::Application()
+void SandboxApplication::initialize()
 {
     std::cout << "Hello world" << std::endl;
 }

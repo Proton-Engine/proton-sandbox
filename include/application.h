@@ -5,10 +5,10 @@
 
 #pragma once
 
-#include "protonengine/core/proton_application.h"
+#include "protonengine/core/application.h"
 
-class Application : public ProtonEngine::Core::ProtonApplication
+class SandboxApplication : public ProtonEngine::Core::Application
 {
 public:
-    Application();
+    void initialize() override;
 };

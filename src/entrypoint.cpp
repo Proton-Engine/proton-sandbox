@@ -5,10 +5,10 @@
 
 #include "application.h"
 
-#include <protonengine/core/proton_entrypoint.h>
+#include <protonengine/core/entrypoint.h>
 #include <memory>
 
-std::unique_ptr<ProtonEngine::Core::ProtonApplication> getProtonApplication(int /*argc*/, char **/*argv*/)
+std::unique_ptr<ProtonEngine::Core::Application> getProtonApplication(int /*argc*/, char **/*argv*/)
 {
-    return std::make_unique<Application>();
+    return std::make_unique<SandboxApplication>();
 }
